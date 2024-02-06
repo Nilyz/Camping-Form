@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <script src="script.js" defer></script>
+        <title>Camping</title>
+    </head>
+    <body>
+        <main>
+            <h1>TE GUSTARÍA ACAMPAR?</h1>
+            <form>
+                <section class="opciones">
+                    <h3>Opciones disponibles</h3>
+                    <div class="cont_input">
+                        <label for="persona">Número de personas</label>
+                        <input
+                            type="number"
+                            id="persona"
+                            class="para_cantidad"
+                        />
+                    </div>
+                    <div class="cont_input">
+                        <label for="nino">Número de niños</label>
+                        <input type="number" id="nino" class="para_cantidad" />
+                    </div>
+                    <div class="cont_input">
+                        <label for="coche">Número de coche</label>
+                        <input type="number" id="coche" class="para_cantidad" />
+                    </div>
+                    <div class="cont_input">
+                        <label for="caravana">Número de caravanas</label>
+                        <input
+                            type="number"
+                            id="caravana"
+                            class="para_cantidad"
+                        />
+                    </div>
+                    <div class="cont_input">
+                        <label for="autocaravana"
+                            >Número de autocaravanas</label
+                        >
+                        <input
+                            type="number"
+                            id="autocaravana"
+                            class="para_cantidad"
+                        />
+                    </div>
+                    <div class="cont_input">
+                        <label for="tiendas">Número de tiendas</label>
+                        <input
+                            type="number"
+                            id="tiendas"
+                            class="para_cantidad"
+                        />
+                    </div>
+                    <div class="cont_input">
+                        <label for="autocar">Número de autocar</label>
+                        <input
+                            type="number"
+                            id="autocar"
+                            class="para_cantidad"
+                        />
+                    </div>
+                    <div class="cont_input">
+                        <label for="motos">Número de motos</label>
+                        <input type="number" id="motos" class="para_cantidad" />
+                    </div>
+                    <div class="cont_input">
+                        <label for="">Electricidad</label>
+                        <div class="mas_servicios">
+                            <input
+                                type="radio"
+                                name="electricidad"
+                                id="electricidad"
+                                value="op"
+                            />Si <input type="radio" name="electricidad" />No
+                        </div>
+                    </div>
+                    <div class="cont_input">
+                        <label for="">Agua</label>
+                        <div class="mas_servicios">
+                            <input
+                                type="radio"
+                                name="agua"
+                                id="agua"
+                                value="op"
+                            />Si <input type="radio" name="agua" />No
+                        </div>
+                    </div>
+                </section>
+                <section class="precios">
+                    <h3>Temporada</h3>
+                    <div class="queTemporada">
+                        <div class="alta">
+                            <input
+                                type="radio"
+                                name="temporada"
+                                id="temporadaAlta"
+                                value="op"
+                            />Alta
+                        </div>
+                        <div class="baja">
+                            <input
+                                type="radio"
+                                name="temporada"
+                                id="temporadaBaja"
+                            />Baja
+                        </div>
+                    </div>
+                    <div class="rangoPrecios">
+                        <div class="preciosAltos">
+                            <ul>
+                                <li>7,15 €</li>
+                                <li>4,1 €</li>
+                                <li>7,25 €</li>
+                                <li>7,25 €</li>
+                                <li>14,5 €</li>
+                                <li>7,25 €</li>
+                                <li>18 €</li>
+                                <li>4 €</li>
+                                <li>5 €</li>
+                                <li>3,5 €</li>
+                            </ul>
+                        </div>
+                        <div class="preciosBajos">
+                            <ul>
+                                <li>5,75 €</li>
+                                <li>3,5 €</li>
+                                <li>5,75 €</li>
+                                <li>5,75 €</li>
+                                <li>8,5 €</li>
+                                <li>5,75 €</li>
+                                <li>16 €</li>
+                                <li>3 €</li>
+                                <li>5 €</li>
+                                <li>3,5 €</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+            </form>
+            <div class="contenedor_calculo_presupuesto">
+                <div class="presupuesto_cont">
+                    <h4>Presupuesto para el camping</h4>
+                    <p id="presupuesto">0.00</p>
+                </div>
+                <button id="btn">Presupuesto</button>
+            </div>
+
+        </main>
+    </body>
+</html>

@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)) ,url(img/3bfcd3ffe9da04843ca7fb111b591cbe\ \(1\).jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Courgette', cursive;
+    color: white;
+}
+main{
+    padding: 100px;
+}
+h1{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+    
+}
+h3{
+    font-size: 25px;
+    text-align: center;
+}
+.opciones h3{
+    margin-bottom: 60px;
+}
+.precios h3{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+form{
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    width: 850px;
+    margin: auto;
+    display: flex;
+
+}
+label{
+    width: 50%;
+    font-size: 20px;
+    margin-left: 20px;
+    padding-top: 10px;
+    text-align: center;
+}
+.opciones{
+    width: 65%;
+    position: relative;
+    padding:30px;
+
+}
+.cont_input{
+    height: 100px;
+    padding: 25px 0 25px 0;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+    display: flex;
+    gap: 20px;
+}
+.para_cantidad{
+    position: absolute;
+    right: 40px;
+}
+.cont_input input{
+    height: 35px;
+    font-size: 15px;
+    border-radius: 20px;
+    border:none;
+    padding-left: 20px;
+}
+.cont_input input:focus{
+    outline: none;
+}
+.mas_servicios{
+    width: 200px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+}
+.mas_servicios input{
+    width: 20px;
+    margin-left: 30px;
+    margin-right: 5px;
+}
+
+
+/*rango de precios*/
+.precios{
+    width: 35%;
+}
+.queTemporada{
+    display: flex;
+    width: 80%;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+    margin: auto;
+    padding-bottom: 10px
+}
+.alta,.baja,.preciosAltos,.preciosBajos{
+    text-align: center;
+    width: 50%;
+}
+
+.rangoPrecios{
+    width: 100%;
+    display: flex;
+}
+.rangoPrecios ul{
+    padding: 0;
+}
+.rangoPrecios li{
+
+    height: 100px;
+    list-style: none;
+    font-size: 20px;
+    padding-top: 30px;
+}
+.queTemporada input{
+    background-color: beige;
+    margin-right: 10px;
+    font-size: 40px;
+    width: 20px; 
+    height: 20px;
+}
+
+/*botón*/
+form, .contenedor_calculo_presupuesto{
+    backdrop-filter: blur(6px);
+    border-radius: 40px;
+}
+.contenedor_calculo_presupuesto{
+    backdrop-filter: blur(6px);
+    width: 850px;
+    margin: auto;
+    font-size: 50px;
+    text-align: center;
+    padding: 40px;
+    margin-top: 40px;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+}
+.presupuesto_cont{
+
+    font-size: 25px;
+}
+.presupuesto_cont h4{
+    margin-bottom: 20px;
+}
+#presupuesto{
+
+
+}
+#btn{
+    background-color: rgb(209, 182, 148);
+    border: none;
+    border-radius: 25px;
+    height: 50px;
+    width: 300px;
+    font-size: 20px;
+    font-family: 'Courgette', cursive;
+    transition: all 0.3s ease-in-out;
+}
+
+#btn:hover{
+    background-color: rgb(122, 91, 62);
+    transform: scale(0.98);
+}
